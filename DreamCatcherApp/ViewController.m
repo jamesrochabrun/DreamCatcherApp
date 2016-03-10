@@ -153,7 +153,7 @@
     NSString *description = [self.descriptions objectAtIndex:sourceIndexPath.row];
     [self.descriptions removeObject:description];
     [self.descriptions insertObject:description  atIndex:destinationIndexPath.row];
-    
+
 }
 
 - (IBAction)onAddButtonPressed:(UIBarButtonItem *)sender {
